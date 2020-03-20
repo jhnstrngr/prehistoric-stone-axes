@@ -1,0 +1,31 @@
+body, html, section {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    overflow: hidden;
+    background-color: #204852;
+    height: 6em;
+    align-items: center;
+    padding: 0 11.5em;
+}
+
+#hero-text {
+    margin: 0 11.5em;
+    padding-top: 10.7em;
+    width: 47.8em;
+}
+
+#introduction {
+    margin: 7.8em 11.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#stones-text {
+    flex: 1;
+}

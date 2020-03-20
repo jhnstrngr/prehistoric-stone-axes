@@ -1,0 +1,52 @@
+#logo{
+.img {
+    display: inline-block;
+    height: 60px;
+    margin-left: auto;
+}
+}
+
+.hero-image {
+    background-image: url("/resources/images/hero-banner.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 1em;
+    text-transform: uppercase;
+    float: right;
+    justify-items: flex-end;
+    li {
+        margin: 0 25px;
+        font-family: 'sofia-proregular';
+        :hover {
+            color: #cccc;
+        }
+    }
+}
+
+#btn {
+    background: #008385;
+    border-radius: 30px;
+    width: 577px;
+    height: 50px;
+    border: none;
+    :focus {
+        outline: none;
+        border: none;
+    }
+}
+
+#stones {
+    flex: 1;
+    width: 660px;
+    height: 100%;
+    margin-top: 2%;
+}

@@ -1,2 +1,187 @@
-@import url(/Users/johnstringer/Desktop/task 1/prehistoric-stone-axes/css/_normalize.css);
+@font-face {
+  font-family: urwclassico-bold;
+  src: url("/resources/fonts/urw_classico_w01_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sofia-prosemibold;
+  src: url("/resources/fonts/sofia_w03_semi_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sofia-proregular;
+  src: url("/resources/fonts/sofiaproregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #383838;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 1;
+}
+
+a :hover {
+  opacity: 0.8;
+}
+
+#intro {
+  font-family: 'urwclassico-bold';
+  color: #fff;
+  font-size: 120px;
+  line-height: 85.6%;
+}
+
+#subtext {
+  font-family: 'sofia-proregular';
+  color: #fff;
+  font-size: 26px;
+  margin-top: 1.8em;
+  line-height: 134%;
+}
+
+#subtext-body {
+  font-family: 'sofia-proregular';
+  color: #fff;
+  font-size: 18px;
+  margin-top: 1.7em;
+  margin-bottom: 1.7em;
+  line-height: 134%;
+}
+
+#btn-text {
+  font-family: 'sofia-proregular';
+  color: #fff;
+  font-size: 16px;
+}
+
+#stones-text-large {
+  font-family: 'sofia-proregular';
+  color: #204852;
+  font-size: 32px;
+  line-height: 134%;
+}
+
+#stones-text-small {
+  font-family: 'sofia-proregular';
+  float: right;
+  font-size: 16px;
+  margin-top: 2.7em;
+  margin-left: 2em;
+  line-height: 150%;
+}
+
+body, html, section {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #204852;
+  height: 6em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 11.5em;
+}
+
+#hero-text {
+  margin: 0 11.5em;
+  padding-top: 10.7em;
+  width: 47.8em;
+}
+
+#introduction {
+  margin: 7.8em 11.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#stones-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#logo .img {
+  display: inline-block;
+  height: 60px;
+  margin-left: auto;
+}
+
+.hero-image {
+  background-image: url("/resources/images/hero-banner.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #FFFFFF;
+  font-size: 1em;
+  text-transform: uppercase;
+  float: right;
+  justify-items: flex-end;
+}
+
+#menu li {
+  margin: 0 25px;
+  font-family: 'sofia-proregular';
+}
+
+#menu li :hover {
+  color: #cccc;
+}
+
+#btn {
+  background: #008385;
+  border-radius: 30px;
+  width: 577px;
+  height: 50px;
+  border: none;
+}
+
+#btn :focus {
+  outline: none;
+  border: none;
+}
+
+#stones {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 660px;
+  height: 100%;
+  margin-top: 2%;
+}
 /*# sourceMappingURL=main.css.map */

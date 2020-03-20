@@ -1,0 +1,81 @@
+@font-face {
+    font-family: urwclassico-bold;
+    src: url('/resources/fonts/urw_classico_w01_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sofia-prosemibold;
+    src: url('/resources/fonts/sofia_w03_semi_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: sofia-proregular;
+    src: url('/resources/fonts/sofiaproregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #383838;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1;
+    :hover {
+    opacity: 0.8;
+    }
+}
+
+#intro {
+    font-family: 'urwclassico-bold';
+    color: #fff;
+    font-size: 120px;
+    line-height: 85.6%;
+}
+
+#subtext {
+    font-family: 'sofia-proregular';
+    color: #fff;
+    font-size: 26px;
+    margin-top: 1.8em;
+    line-height: 134%;
+}
+
+#subtext-body {
+    font-family: 'sofia-proregular';
+    color: #fff;
+    font-size: 18px;
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
+    line-height: 134%;
+}
+
+#btn-text {
+    font-family: 'sofia-proregular';
+    color: #fff;
+    font-size: 16px;
+}
+
+#stones-text-large {
+    font-family: 'sofia-proregular';
+    color: #204852;
+    font-size: 32px;
+    line-height: 134%;
+}
+
+#stones-text-small {
+    font-family: 'sofia-proregular';
+    float: right;
+    font-size: 16px;
+    margin-top: 2.7em;
+    margin-left: 2em;
+    line-height: 150%;
+}
