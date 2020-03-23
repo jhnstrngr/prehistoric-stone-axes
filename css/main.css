@@ -38,7 +38,7 @@ a :hover {
   font-family: 'urwclassico-bold';
   color: #fff;
   line-height: 85.6%;
-  font-size: 64pt;
+  font-size: 64px;
 }
 
 @media screen and (min-width: 900px) {
@@ -79,14 +79,18 @@ a :hover {
 #stones-text-large {
   font-family: 'sofia-proregular';
   color: #204852;
-  font-size: 32px;
-  line-height: 134%;
+  font-size: 28px;
+  line-height: 120%;
   text-align: center;
+  margin-top: 2em;
 }
 
 @media screen and (min-width: 1200px) {
   #stones-text-large {
     text-align: left;
+    font-size: 32px;
+    line-height: 134%;
+    margin-top: 0;
   }
 }
 
@@ -125,7 +129,7 @@ body, html, section {
 
 #hero-text {
   margin: 0 10%;
-  padding-top: 10.7em;
+  padding-top: 20vh;
   width: auto;
 }
 
@@ -215,7 +219,7 @@ body, html, section {
 #btn {
   background: #008385;
   border-radius: 30px;
-  width: 80%;
+  width: 100%;
   height: 50px;
   border: none;
 }

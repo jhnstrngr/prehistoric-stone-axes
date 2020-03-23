@@ -38,10 +38,10 @@ a {
     font-family: 'urwclassico-bold';
     color: #fff;
     line-height: 85.6%;
-    font-size: 64pt;
+    font-size: 64px;
     @media screen and (min-width: 900px) {
     font-size: 120px;
-          }
+    }
 }
 
 #subtext {
@@ -74,11 +74,15 @@ a {
 #stones-text-large {
     font-family: 'sofia-proregular';
     color: #204852;
-    font-size: 32px;
-    line-height: 134%;
+    font-size: 28px;
+    line-height: 120%;
     text-align: center;
+    margin-top: 2em;
     @media screen and (min-width: 1200px) {
         text-align: left;
+        font-size: 32px;
+        line-height: 134%;
+        margin-top: 0;
     }
 }
 
