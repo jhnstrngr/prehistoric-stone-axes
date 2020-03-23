@@ -50,18 +50,42 @@ a :hover {
 #subtext {
   font-family: 'sofia-proregular';
   color: #FFF;
-  font-size: 26px;
+  font-size: 22px;
   margin-top: 1.8em;
   line-height: 134%;
+}
+
+@media screen and (min-width: 900px) {
+  #subtext {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #subtext {
+    font-size: 26px;
+  }
 }
 
 #subtext-body {
   font-family: 'sofia-proregular';
   color: #FFF;
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 1.7em;
   margin-bottom: 1.7em;
   line-height: 134%;
+}
+
+@media screen and (min-width: 900px) {
+  #subtext-body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #subtext-body {
+    font-size: 18px;
+  }
 }
 
 #btn-content {
