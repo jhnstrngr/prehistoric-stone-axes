@@ -64,8 +64,14 @@ a {
     font-family: 'urwclassico-bold';
     color: $top-body;
     line-height: 85.6%;
-    font-size: 64px;
-    @media screen and (min-width: 900px) {
+    font-size: 52px;
+    @media screen and (min-width: 400px) {
+        font-size: 64px;
+        }
+    @media screen and (min-width: 700px) {
+        font-size: 86px;
+        }
+    @media screen and (min-width: 1200px) {
     font-size: 120px;
     }
 }

@@ -55,10 +55,22 @@ a :hover {
   font-family: 'urwclassico-bold';
   color: #FFF;
   line-height: 85.6%;
-  font-size: 64px;
+  font-size: 52px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 400px) {
+  #intro {
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #intro {
+    font-size: 86px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   #intro {
     font-size: 120px;
   }
