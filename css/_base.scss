@@ -1,8 +1,12 @@
+// Variable
+
 $top-body: #FFF;
 $hero: #FBFEFD;
 $body: #383838;
 $primary: #008385;
 $secondary: #204852;
+
+// Imported fonts
 
 @font-face {
     font-family: urwclassico-bold;
@@ -25,6 +29,8 @@ $secondary: #204852;
     font-weight: normal;
     font-style: normal;
 }
+
+// Text properties
 
 body {
     color: $body;
@@ -61,6 +67,7 @@ a {
     }
     @media screen and (min-width: 1200px) {
         font-size: 26px;
+        letter-spacing: 1.5px;
     }
 }
 
@@ -96,7 +103,6 @@ a {
     }
     @media screen and (min-width: 1200px) {
         font-size: 16px;
-        width: 90%;
     }
 }
 
@@ -120,6 +126,7 @@ a {
         font-size: 32px;
         line-height: 134%;
         margin-top: 0;
+        letter-spacing: 0.8px;
     }
 }
 
@@ -132,4 +139,28 @@ a {
     @media screen and (min-width: 1200px) {
     margin-left: 2em;
     }
+}
+
+#hero-text {
+    margin: 0 10%;
+    padding-top: 20vh;
+    width: auto;
+    @media screen and (min-width: 1200px) {
+        width: 47.8em;
+    }
+}
+
+#introduction {
+    margin: 7.8em 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+    }
+}
+
+#stones-text {
+    flex: 1;
 }

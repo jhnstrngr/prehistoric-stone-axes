@@ -64,6 +64,7 @@ a :hover {
 @media screen and (min-width: 1200px) {
   #subtext {
     font-size: 26px;
+    letter-spacing: 1.5px;
   }
 }
 
@@ -116,7 +117,6 @@ a :hover {
 @media screen and (min-width: 1200px) {
   #btn-text {
     font-size: 16px;
-    width: 90%;
   }
 }
 
@@ -146,6 +146,7 @@ a :hover {
     font-size: 32px;
     line-height: 134%;
     margin-top: 0;
+    letter-spacing: 0.8px;
   }
 }
 
@@ -161,25 +162,6 @@ a :hover {
   #stones-text-small {
     margin-left: 2em;
   }
-}
-
-body, html, section {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-#header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  background-color: #204852;
-  height: 6em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 10%;
 }
 
 #hero-text {
@@ -223,6 +205,60 @@ body, html, section {
           flex: 1;
 }
 
+body, html, section {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #204852;
+  height: 6em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10%;
+}
+
+#menu {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  #menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    justify-items: flex-end;
+    margin-left: auto;
+    letter-spacing: 1px;
+  }
+  #menu li {
+    margin: 0 25px;
+    font-family: 'sofia-proregular';
+  }
+  #menu li :hover {
+    color: #cccc;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #menu {
+    font-size: 16px;
+    letter-spacing: 1.8px;
+  }
+}
+
 #logo .img {
   display: inline-block;
   height: 60px;
@@ -241,33 +277,6 @@ body, html, section {
 @media screen and (min-width: 1200px) {
   .hero-image {
     height: 100%;
-  }
-}
-
-#menu {
-  display: none;
-}
-
-@media screen and (min-width: 900px) {
-  #menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    color: #FFF;
-    font-size: 14pt;
-    text-transform: uppercase;
-    justify-items: flex-end;
-    margin-left: auto;
-  }
-  #menu li {
-    margin: 0 25px;
-    font-family: 'sofia-proregular';
-  }
-  #menu li :hover {
-    color: #cccc;
   }
 }
 
