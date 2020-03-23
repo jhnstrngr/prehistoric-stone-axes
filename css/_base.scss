@@ -37,8 +37,11 @@ a {
 #intro {
     font-family: 'urwclassico-bold';
     color: #fff;
-    font-size: 120px;
     line-height: 85.6%;
+    font-size: 64pt;
+    @media screen and (min-width: 900px) {
+    font-size: 120px;
+          }
 }
 
 #subtext {
@@ -47,6 +50,7 @@ a {
     font-size: 26px;
     margin-top: 1.8em;
     line-height: 134%;
+
 }
 
 #subtext-body {
@@ -61,7 +65,10 @@ a {
 #btn-text {
     font-family: 'sofia-proregular';
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+    }
 }
 
 #stones-text-large {
@@ -69,6 +76,10 @@ a {
     color: #204852;
     font-size: 32px;
     line-height: 134%;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 #stones-text-small {
@@ -76,6 +87,8 @@ a {
     float: right;
     font-size: 16px;
     margin-top: 2.7em;
-    margin-left: 2em;
     line-height: 150%;
+    @media screen and (min-width: 1200px) {
+    margin-left: 2em;
+    }
 }

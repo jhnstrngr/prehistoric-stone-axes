@@ -37,8 +37,14 @@ a :hover {
 #intro {
   font-family: 'urwclassico-bold';
   color: #fff;
-  font-size: 120px;
   line-height: 85.6%;
+  font-size: 64pt;
+}
+
+@media screen and (min-width: 900px) {
+  #intro {
+    font-size: 120px;
+  }
 }
 
 #subtext {
@@ -61,7 +67,13 @@ a :hover {
 #btn-text {
   font-family: 'sofia-proregular';
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  #btn-text {
+    font-size: 16px;
+  }
 }
 
 #stones-text-large {
@@ -69,6 +81,13 @@ a :hover {
   color: #204852;
   font-size: 32px;
   line-height: 134%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  #stones-text-large {
+    text-align: left;
+  }
 }
 
 #stones-text-small {
@@ -76,8 +95,13 @@ a :hover {
   float: right;
   font-size: 16px;
   margin-top: 2.7em;
-  margin-left: 2em;
   line-height: 150%;
+}
+
+@media screen and (min-width: 1200px) {
+  #stones-text-small {
+    margin-left: 2em;
+  }
 }
 
 body, html, section {
@@ -96,27 +120,42 @@ body, html, section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 11.5em;
+  padding: 0 10%;
 }
 
 #hero-text {
-  margin: 0 11.5em;
+  margin: 0 10%;
   padding-top: 10.7em;
-  width: 47.8em;
+  width: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  #hero-text {
+    width: 47.8em;
+  }
 }
 
 #introduction {
-  margin: 7.8em 11.5em;
+  margin: 7.8em 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  #introduction {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 #stones-text {
@@ -128,47 +167,69 @@ body, html, section {
 #logo .img {
   display: inline-block;
   height: 60px;
-  margin-left: auto;
+  width: auto;
 }
 
 .hero-image {
   background-image: url("/resources/images/hero-banner.svg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-image {
+    height: 100%;
+  }
 }
 
 #menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  color: #FFFFFF;
-  font-size: 1em;
-  text-transform: uppercase;
-  float: right;
-  justify-items: flex-end;
+  display: none;
 }
 
-#menu li {
-  margin: 0 25px;
-  font-family: 'sofia-proregular';
-}
-
-#menu li :hover {
-  color: #cccc;
+@media screen and (min-width: 900px) {
+  #menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 14pt;
+    text-transform: uppercase;
+    justify-items: flex-end;
+    margin-left: auto;
+  }
+  #menu li {
+    margin: 0 25px;
+    font-family: 'sofia-proregular';
+  }
+  #menu li :hover {
+    color: #cccc;
+  }
 }
 
 #btn {
   background: #008385;
   border-radius: 30px;
-  width: 577px;
+  width: 80%;
   height: 50px;
   border: none;
+}
+
+@media screen and (min-width: 800px) {
+  #btn {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #btn {
+    width: 577px;
+  }
 }
 
 #btn :focus {
@@ -180,8 +241,21 @@ body, html, section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  width: 660px;
+  width: 90vw;
   height: 100%;
-  margin-top: 2%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1200px) {
+  #stones {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 2%;
+    width: 45vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,20 +10,29 @@ body, html, section {
     background-color: #204852;
     height: 6em;
     align-items: center;
-    padding: 0 11.5em;
+    padding: 0 10%;
 }
 
 #hero-text {
-    margin: 0 11.5em;
+    margin: 0 10%;
     padding-top: 10.7em;
-    width: 47.8em;
+    width: auto;
+    @media screen and (min-width: 1200px) {
+        width: 47.8em;
+              }
 }
 
 #introduction {
-    margin: 7.8em 11.5em;
+    margin: 7.8em 10%;
     display: flex;
-    flex-direction: row;
+   
+    flex-direction: column;
     justify-content: center;
+    // overflow: hidden;
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+      }
 }
 
 #stones-text {
