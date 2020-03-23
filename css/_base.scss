@@ -46,6 +46,20 @@ a {
     }
 }
 
+.link {
+    color: $primary;
+    text-decoration: underline;
+}
+
+#hero-text {
+    margin: 0 10%;
+    padding-top: 20vh;
+    width: auto;
+    @media screen and (min-width: 1200px) {
+        width: 47.8em;
+    }
+}
+
 #intro {
     font-family: 'urwclassico-bold';
     color: $top-body;
@@ -114,6 +128,10 @@ a {
     }
 }
 
+#stones-text {
+    flex: 1;
+}
+
 #stones-text-large {
     font-family: 'sofia-proregular';
     color: $secondary;
@@ -136,17 +154,9 @@ a {
     font-size: 16px;
     margin-top: 2.7em;
     line-height: 150%;
+    letter-spacing: 0.5px;
     @media screen and (min-width: 1200px) {
     margin-left: 2em;
-    }
-}
-
-#hero-text {
-    margin: 0 10%;
-    padding-top: 20vh;
-    width: auto;
-    @media screen and (min-width: 1200px) {
-        width: 47.8em;
     }
 }
 
@@ -159,8 +169,4 @@ a {
     @media screen and (min-width: 1200px) {
         flex-direction: row;
     }
-}
-
-#stones-text {
-    flex: 1;
 }

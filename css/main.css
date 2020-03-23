@@ -34,6 +34,23 @@ a :hover {
   opacity: 0.8;
 }
 
+.link {
+  color: #008385;
+  text-decoration: underline;
+}
+
+#hero-text {
+  margin: 0 10%;
+  padding-top: 20vh;
+  width: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  #hero-text {
+    width: 47.8em;
+  }
+}
+
 #intro {
   font-family: 'urwclassico-bold';
   color: #FFF;
@@ -131,6 +148,12 @@ a :hover {
   }
 }
 
+#stones-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 #stones-text-large {
   font-family: 'sofia-proregular';
   color: #204852;
@@ -156,23 +179,12 @@ a :hover {
   font-size: 16px;
   margin-top: 2.7em;
   line-height: 150%;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (min-width: 1200px) {
   #stones-text-small {
     margin-left: 2em;
-  }
-}
-
-#hero-text {
-  margin: 0 10%;
-  padding-top: 20vh;
-  width: auto;
-}
-
-@media screen and (min-width: 1200px) {
-  #hero-text {
-    width: 47.8em;
   }
 }
 
@@ -197,12 +209,6 @@ a :hover {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-}
-
-#stones-text {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 body, html, section {
