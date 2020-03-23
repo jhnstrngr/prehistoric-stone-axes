@@ -84,12 +84,6 @@ a :hover {
   line-height: 134%;
 }
 
-@media screen and (min-width: 900px) {
-  #subtext {
-    font-size: 24px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   #subtext {
     font-size: 26px;
@@ -104,12 +98,6 @@ a :hover {
   margin-top: 1.7em;
   margin-bottom: 1.7em;
   line-height: 134%;
-}
-
-@media screen and (min-width: 900px) {
-  #subtext-body {
-    font-size: 16px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
