@@ -1,3 +1,9 @@
+$top-body: #FFF;
+$hero: #FBFEFD;
+$body: #383838;
+$primary: #008385;
+$secondary: #204852;
+
 @font-face {
     font-family: urwclassico-bold;
     src: url('/resources/fonts/urw_classico_w01_bold-webfont.woff') format('woff');
@@ -21,7 +27,7 @@
 }
 
 body {
-    color: #383838;
+    color: $body;
     font-size: 14px;
 }
 
@@ -36,7 +42,7 @@ a {
 
 #intro {
     font-family: 'urwclassico-bold';
-    color: #fff;
+    color: $top-body;
     line-height: 85.6%;
     font-size: 64px;
     @media screen and (min-width: 900px) {
@@ -46,7 +52,7 @@ a {
 
 #subtext {
     font-family: 'sofia-proregular';
-    color: #fff;
+    color: $top-body;
     font-size: 26px;
     margin-top: 1.8em;
     line-height: 134%;
@@ -55,25 +61,43 @@ a {
 
 #subtext-body {
     font-family: 'sofia-proregular';
-    color: #fff;
+    color: $top-body;
     font-size: 18px;
     margin-top: 1.7em;
     margin-bottom: 1.7em;
     line-height: 134%;
 }
 
+#btn-content {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+}
+
 #btn-text {
     font-family: 'sofia-proregular';
-    color: #fff;
+    color: $top-body;
     font-size: 12px;
+    margin-left: auto;
+    @media screen and (min-width: 900px) {
+        font-size: 14px;
+    }
     @media screen and (min-width: 1200px) {
         font-size: 16px;
     }
 }
 
+#external-link {
+    height: 15px;
+    margin: auto;
+    @media screen and (min-width: 1200px) {
+        margin-left: 9px;
+    }
+}
+
 #stones-text-large {
     font-family: 'sofia-proregular';
-    color: #204852;
+    color: $secondary;
     font-size: 28px;
     line-height: 120%;
     text-align: center;
