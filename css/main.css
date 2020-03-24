@@ -1,20 +1,20 @@
 @font-face {
   font-family: urwclassico-bold;
-  src: url("/resources/fonts/urw_classico_w01_bold-webfont.woff") format("woff");
+  src: url("../resources/fonts/urw_classico_w01_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: sofia-prosemibold;
-  src: url("/resources/fonts/sofia_w03_semi_bold-webfont.woff") format("woff");
+  src: url("../resources/fonts/sofia_w03_semi_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: sofia-proregular;
-  src: url("/resources/fonts/sofiaproregular-webfont.woff") format("woff");
+  src: url("../resources/fonts/sofiaproregular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -272,7 +272,7 @@ body, html, section {
 }
 
 .hero-image {
-  background-image: url("/resources/images/hero-banner.png");
+  background-image: url("../resources/images/hero-banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
